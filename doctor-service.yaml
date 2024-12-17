@@ -5,8 +5,9 @@ metadata:
 spec:
   selector:
     app: doctor-service
-  type: LoadBalancer
+  type: NodePort
   ports:
     - protocol: TCP
       port: 80
       targetPort: 8081
+      nodePort: 31001
