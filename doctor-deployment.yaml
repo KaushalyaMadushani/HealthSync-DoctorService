@@ -15,7 +15,7 @@ spec:
         app: doctor-service
     spec:
       containers:
-        - name: app
+        - name: doctor-service
           #          image: gcr.io/PROJECT_ID/IMAGE:TAG
           image: gcr.io/healthsync-444908/doctor-service-image:1.0.0
           imagePullPolicy: Always
